@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+
+/* start navbar section  */
+
+.navbar {
+  font-family: cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.form-inline {
+  margin-left: 60%;
+}
+
+.btn {
+  border-radius: 15px;
+}
+
+
+/* End navbar section  */
+
+/* start media section  */
+
+.head {
+  margin-top: 150px;
+  color: blue;
+}
+
+/* End media section  */
+
+/* start dedails section  */
+
+.details {
+  background-color: rgba(83, 53, 216, 0.925);
+  height: 500px;
+}
+
+.dina {
+  margin-top: 100px;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.ahmed {
+  height: 100px;
+  width: 200px;
+}
+
+/* end details section  */
+
+/* start Device section  */
+.fon {
+  margin-top: 60px;
+}
+
+.icon {
+  height: 20%;
+  color: rgb(16, 63, 94);
+}
+
+
+@media only screen and (max-width:992px) {
+  .fon {
+    margin-top: 0px;
+  }
+}
+
+/* end Device section  */
+
+/* start web section  */
+
+.enter {
+  font-family: cursive;
+  font-size: 30px;
+  margin-top: 30px;
+  color: blue;
+  margin-bottom: 5px;
+}
+
+.solve {
+  font-size: 20px;
+}
+
+.img {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+}
+
+@media only screen and (max-width:992px) {
+  .enter {
+    margin-top: 0px;
+  }
+}
+
+/* end web section  */
+
+/* start stop section  */
+.stop {
+  background-image: url(/public/img/pexels-photo-392018.webp);
+  height: 900px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.centered {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+/* end stop section  */
+
+/* start footer section  */
+
+.footer {
+  background-color: black;
+  background-size: cover;
+  height: 600px;
+  color: white;
+
+
+}
+
+#get {
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+
+#prh {
+  margin-top: 15%;
+}
+
+.imgp {
+  width: 300px;
+  height: 80px;
+  margin-top: 90px;
+}
+
+@media only screen and (max-width:992px) {
+  #prh {
+    margin-top: 30%;
+  }
+}
+
+
+/* end footer section  */
